@@ -4,7 +4,16 @@
     <_LastSelectedProfileId>C:\Users\tdyda\source\repos\testClick\testClick\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="AddStep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageSteps.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
