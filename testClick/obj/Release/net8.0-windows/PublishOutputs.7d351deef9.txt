@@ -1,0 +1,6 @@
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.exe
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.deps.json
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.runtimeconfig.json
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.pdb
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\Gma.System.MouseKeyHook.dll

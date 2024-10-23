@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JnzXbb8vbA8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\testClick.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tdyda\\.nuget\\packages\\mousekeyhook\\5.7.1\\mousekeyhook.5.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.pdb
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\D3DCompiler_47_cor3.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\PenImc_cor3.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\PresentationNative_cor3.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\vcruntime140_cor3.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\wpfgfx_cor3.dll
+C:\Users\tdyda\source\repos\testClick\testClick\bin\publish\testClick.exe
