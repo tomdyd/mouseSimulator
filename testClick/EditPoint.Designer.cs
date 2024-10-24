@@ -42,6 +42,7 @@
             xPos.Name = "xPos";
             xPos.Size = new Size(137, 23);
             xPos.TabIndex = 0;
+            xPos.Enabled = false;
             // 
             // yPos
             // 
@@ -49,6 +50,7 @@
             yPos.Name = "yPos";
             yPos.Size = new Size(137, 23);
             yPos.TabIndex = 1;
+            yPos.Enabled = false;
             // 
             // Ok_btn
             // 

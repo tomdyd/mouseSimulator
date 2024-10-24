@@ -84,6 +84,7 @@
             xPos.Name = "xPos";
             xPos.Size = new Size(122, 23);
             xPos.TabIndex = 43;
+            xPos.Enabled = false;
             // 
             // Ok_btn
             // 
@@ -119,6 +120,7 @@
             yPos.Name = "yPos";
             yPos.Size = new Size(122, 23);
             yPos.TabIndex = 39;
+            yPos.Enabled = false;
             // 
             // yPosLabel
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gma.System.MouseKeyHook;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace testClick
         private HomeForm _home;
         private ManageSteps _manageSteps;
         private BindingList<Step> _steps;
+        private IKeyboardMouseEvents _hook;
         public AddStep(HomeForm home, BindingList<Step> steps, ManageSteps manageSteps)
         {
             InitializeComponent();
@@ -26,6 +28,8 @@ namespace testClick
             _manageSteps = manageSteps;
             _steps = steps;
             _manageSteps.SetDataSource(steps);
+            _hook = Hook.GlobalEvents();
+            _hook.KeyDown += SetPos;
         }
 
         private void TimerCursor_Tick(object sender, EventArgs e)
@@ -34,6 +38,15 @@ namespace testClick
 
             currentX.Text = $"X: {cursorPosition.X}"; // Ustawianie wartości X
             currentY.Text = $"Y: {cursorPosition.Y}"; // Ustawianie wartości Y
+        }
+
+        private void SetPos(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.H)
+            {
+                xPos.Text = Cursor.Position.X.ToString();
+                yPos.Text = Cursor.Position.Y.ToString();
+            }
         }
 
         private void AddBtn_Click(object sender, EventArgs e)

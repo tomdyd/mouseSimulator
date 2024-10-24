@@ -98,6 +98,7 @@
             Name = "HomeForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mouse Simulator";
+            FormClosing += Form1_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }
