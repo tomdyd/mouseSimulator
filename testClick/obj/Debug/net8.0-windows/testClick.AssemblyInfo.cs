@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testClick")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30c01fa38d71b79a2bf4c9b457837197e593749b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf440c276bc021c2aea73f8f22322e106a5a2045")]
 [assembly: System.Reflection.AssemblyProductAttribute("testClick")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testClick")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

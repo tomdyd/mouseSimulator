@@ -22,7 +22,7 @@ namespace testClick
             stepsList.Items.Add(item);
         }
 
-        public void SetDataSource(BindingList<Point> source)
+        public void SetDataSource(BindingList<Step> source)
         {
             stepsList.DataSource = source;
             stepsList.DisplayMember = "ToString";
@@ -39,8 +39,8 @@ namespace testClick
         {
             if (stepsList.SelectedItem != null)
             {
-                Point selectedPoint = (Point)stepsList.SelectedItem;
-                BindingList<Point> source = (BindingList<Point>)stepsList.DataSource;
+                Step selectedPoint = (Step)stepsList.SelectedItem;
+                BindingList<Step> source = (BindingList<Step>)stepsList.DataSource;
                 stepsList.DataSource = null;
 
                 // Usuń zaznaczony element
@@ -56,8 +56,15 @@ namespace testClick
 
         private void Edit_btn_Click(object sender, EventArgs e)
         {
-            EditPoint editPoit = new EditPoint(stepsList);
-            editPoit.Show();            
+            if (stepsList.SelectedItem != null)
+            {
+                EditPoint editPoit = new EditPoint(stepsList);
+                editPoit.Show();
+            }
+            else
+            {
+                MessageBox.Show("Proszę zaznaczyć element do edycji.");
+            }
         }
     }
 }

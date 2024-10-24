@@ -14,8 +14,8 @@ namespace testClick
     {
         private HomeForm _home;
         private ManageSteps _manageSteps;
-        private BindingList<Point> _steps;
-        public AddStep(HomeForm home, BindingList<Point> steps, ManageSteps manageSteps)
+        private BindingList<Step> _steps;
+        public AddStep(HomeForm home, BindingList<Step> steps, ManageSteps manageSteps)
         {
             InitializeComponent();
 
@@ -25,7 +25,7 @@ namespace testClick
             _home = home;
             _manageSteps = manageSteps;
             _steps = steps;
-            _manageSteps.SetDataSource(steps);            
+            _manageSteps.SetDataSource(steps);
         }
 
         private void TimerCursor_Tick(object sender, EventArgs e)
@@ -43,6 +43,7 @@ namespace testClick
             if (!xIsNumber)
             {
                 MessageBox.Show("Nieprawidłowa wartość na osi x");
+                return;
             }
 
             string yTempValue = yPos.Text;
@@ -50,6 +51,7 @@ namespace testClick
             if (!yIsNumber)
             {
                 MessageBox.Show("Nieprawidłowa wartość na osi y");
+                return;
             }
 
             _home.AddPointList(new Point(x, y));
@@ -61,6 +63,20 @@ namespace testClick
         private void Ok_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void AddScroll_btn_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(scrollValue.Text, out int scroll))
+            {
+                _home.AddScrollList(scroll);
+                scrollValue.Clear();
+            }
+        }
+
+        private void ScrollOk_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

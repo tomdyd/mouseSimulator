@@ -21,8 +21,8 @@ namespace testClick
 
         private void Ok_btn_Click(object sender, EventArgs e)
         {
-            Point selectedPoint = (Point)_stepsList.SelectedItem;
-            BindingList<Point> source = (BindingList<Point>)_stepsList.DataSource;            
+            Step selectedPoint = (Step)_stepsList.SelectedItem;
+            BindingList<Step> source = (BindingList<Step>)_stepsList.DataSource;
 
             if (int.TryParse(xPos.Text, out int x))
             {
@@ -31,10 +31,15 @@ namespace testClick
                     _stepsList.DataSource = null;
                     var selectedIndex = source.IndexOf(selectedPoint);
                     source.RemoveAt(selectedIndex);
-                    source.Insert(selectedIndex, new Point(x, y));
+                    source.Insert(selectedIndex, new ClickStep(new Point(x, y)));
                     _stepsList.DataSource = source;
                 }
             }
+        }
+
+        private void Cancel_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

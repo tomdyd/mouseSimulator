@@ -17,11 +17,13 @@ namespace testClick
         private const uint MOUSEEVENTF_MOVE = 0x0001;
         private const uint MOUSEEVENTF_LEFTDOWN = 0x0002;
         private const uint MOUSEEVENTF_LEFTUP = 0x0004;
+        private const uint MOUSEEVENTF_WHEEL = 0x0800;
+
         private ManageSteps _manageSteps;
 
         private IKeyboardMouseEvents _hook;
         private bool isRunning = true; // Flaga do zatrzymywania pêtl
-        private BindingList<Point> _steps = new BindingList<Point>();
+        private BindingList<Step> _steps = new BindingList<Step>();
 
 
         public HomeForm()
@@ -57,6 +59,12 @@ namespace testClick
             simulationThread.Start();
         }
 
+        private void SimulateScroll(int scrollAmount)
+        {
+            mouse_event(MOUSEEVENTF_WHEEL, 0, 0, (uint)scrollAmount, 0);
+        }
+
+
         private void SimulateMouseClickLoop()
         {
             string sleepTimeTemp = sleepTime.Text;
@@ -70,18 +78,13 @@ namespace testClick
 
             while (isRunning)
             {
-                foreach (Point p in _steps)
+                foreach (Step step in _steps)
                 {
-                    int x = p.X;
-                    int y = p.Y;
-
-                    Cursor.Position = new Point(x, y);
+                    step.Execute();
                     Thread.Sleep(sleep * 1000);
-
-                    mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-                    mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
                 }
             }
+            
         }
 
         private void AddStepBtn_Click(object sender, EventArgs e)
@@ -93,7 +96,12 @@ namespace testClick
 
         public void AddPointList(Point item)
         {
-            _steps.Add(item);
+            _steps.Add(new ClickStep(item));
+        }
+
+        public void AddScrollList(int value)
+        {
+            _steps.Add(new ScrollStep(value));
         }
 
         private void ManageSteps_Click(object sender, EventArgs e)

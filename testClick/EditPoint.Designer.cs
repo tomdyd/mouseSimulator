@@ -68,6 +68,7 @@
             Cancel_btn.TabIndex = 3;
             Cancel_btn.Text = "Cancel";
             Cancel_btn.UseVisualStyleBackColor = true;
+            Cancel_btn.Click += Cancel_btn_Click;
             // 
             // xPosLabel
             // 
