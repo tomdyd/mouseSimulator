@@ -464,7 +464,6 @@ C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\win-x
 C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\win-x86\zh-Hant\WindowsBase.resources.dll
 C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\win-x86\zh-Hant\WindowsFormsIntegration.resources.dll
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.csproj.AssemblyReference.cache
-C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.Form1.resources
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.csproj.GenerateResource.cache
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.AssemblyInfoInputs.cache
@@ -476,3 +475,9 @@ C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.pdb
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.genruntimeconfig.cache
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\ref\testClick.dll
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.AddStep.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.EditPoint.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.HomeForm.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.ManageSteps.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.sourcelink.json
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\win-x86\testClick.EditScroll.resources

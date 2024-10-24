@@ -21,3 +21,4 @@ C:\Users\tdyda\source\repos\testClick\testClick\obj\Debug\net8.0-windows\testCli
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Debug\net8.0-windows\testClick.HomeForm.resources
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Debug\net8.0-windows\testClick.ManageSteps.resources
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Debug\net8.0-windows\testClick.EditPoint.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Debug\net8.0-windows\testClick.EditScroll.resources

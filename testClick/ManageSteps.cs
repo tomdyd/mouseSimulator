@@ -58,8 +58,16 @@ namespace testClick
         {
             if (stepsList.SelectedItem != null)
             {
-                EditPoint editPoit = new EditPoint(stepsList);
-                editPoit.Show();
+                if (stepsList.SelectedItem.GetType() == typeof(ClickStep))
+                {
+                    EditPoint edit = new EditPoint(stepsList);
+                    edit.Show();
+                }
+                else if(stepsList.SelectedItem.GetType() == typeof(ScrollStep))
+                {
+                    EditScroll editScroll = new EditScroll(stepsList);
+                    editScroll.Show();
+                }
             }
             else
             {

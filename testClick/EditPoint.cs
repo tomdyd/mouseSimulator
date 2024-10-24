@@ -35,6 +35,7 @@ namespace testClick
                     _stepsList.DataSource = source;
                 }
             }
+            this.Close();
         }
 
         private void Cancel_btn_Click(object sender, EventArgs e)

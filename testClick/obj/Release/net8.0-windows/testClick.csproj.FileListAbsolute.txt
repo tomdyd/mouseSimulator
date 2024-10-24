@@ -5,7 +5,6 @@ C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\testC
 C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\testClick.pdb
 C:\Users\tdyda\source\repos\testClick\testClick\bin\Release\net8.0-windows\Gma.System.MouseKeyHook.dll
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.csproj.AssemblyReference.cache
-C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.Form1.resources
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.csproj.GenerateResource.cache
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.AssemblyInfoInputs.cache
@@ -17,3 +16,9 @@ C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\refin
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.pdb
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.genruntimeconfig.cache
 C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\ref\testClick.dll
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.AddStep.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.EditPoint.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.HomeForm.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.ManageSteps.resources
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.sourcelink.json
+C:\Users\tdyda\source\repos\testClick\testClick\obj\Release\net8.0-windows\testClick.EditScroll.resources

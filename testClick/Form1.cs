@@ -68,23 +68,24 @@ namespace testClick
         private void SimulateMouseClickLoop()
         {
             string sleepTimeTemp = sleepTime.Text;
-            bool sleepIsNumber = int.TryParse(sleepTimeTemp, out int sleep);
-
-            if (!sleepIsNumber)
+            if (double.TryParse(sleepTimeTemp, out double sleepTimeDoubleTemp))
+            {
+                sleepTimeDoubleTemp *= 1000;
+                int sleep = (int)sleepTimeDoubleTemp;
+                while (isRunning)
+                {
+                    foreach (Step step in _steps)
+                    {
+                        step.Execute();
+                        Thread.Sleep(sleep);
+                    }
+                }
+            }
+            else
             {
                 MessageBox.Show("Nieprawid³owa wartoœæ opóŸnienia!");
                 isRunning = false;
             }
-
-            while (isRunning)
-            {
-                foreach (Step step in _steps)
-                {
-                    step.Execute();
-                    Thread.Sleep(sleep * 1000);
-                }
-            }
-            
         }
 
         private void AddStepBtn_Click(object sender, EventArgs e)
