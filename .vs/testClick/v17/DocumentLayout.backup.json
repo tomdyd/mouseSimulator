@@ -7,32 +7,24 @@
       "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\editscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\scrollstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\scrollstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|C:\\Users\\tdyda\\source\\repos\\testClick\\testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\managesteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\managesteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\addstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\addstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|C:\\Users\\tdyda\\source\\repos\\testClick\\testclick\\addstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\addstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|c:\\users\\tdyda\\source\\repos\\testclick\\testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|C:\\Users\\tdyda\\source\\repos\\testClick\\testclick\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|C:\\Users\\tdyda\\source\\repos\\testClick\\testclick\\editscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04957A3E-A13D-41C1-8FB8-451DA6DBB0CB}|testClick\\testClick.csproj|solutionrelative:testclick\\editscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EditPoint.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditPoint.cs",
               "RelativeDocumentMoniker": "testClick\\EditPoint.cs",
@@ -67,20 +59,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScrollStep.cs",
+              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\ScrollStep.cs",
+              "RelativeDocumentMoniker": "testClick\\ScrollStep.cs",
+              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\ScrollStep.cs",
+              "RelativeToolTip": "testClick\\ScrollStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:44:13.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Step.cs",
+              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\Step.cs",
+              "RelativeDocumentMoniker": "testClick\\Step.cs",
+              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\Step.cs",
+              "RelativeToolTip": "testClick\\Step.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:33:09.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EditScroll.cs",
               "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditScroll.cs",
               "RelativeDocumentMoniker": "testClick\\EditScroll.cs",
               "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditScroll.cs",
               "RelativeToolTip": "testClick\\EditScroll.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T12:03:28.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EditScroll.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditScroll.cs",
               "RelativeDocumentMoniker": "testClick\\EditScroll.cs",
@@ -92,65 +110,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EditPoint.cs",
               "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditPoint.cs",
               "RelativeDocumentMoniker": "testClick\\EditPoint.cs",
               "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\EditPoint.cs",
               "RelativeToolTip": "testClick\\EditPoint.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T10:48:52.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddStep.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\AddStep.cs",
-              "RelativeDocumentMoniker": "testClick\\AddStep.cs",
-              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\AddStep.cs [Design]",
-              "RelativeToolTip": "testClick\\AddStep.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:15:11.21Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddStep.cs",
-              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\AddStep.cs",
-              "RelativeDocumentMoniker": "testClick\\AddStep.cs",
-              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\AddStep.cs",
-              "RelativeToolTip": "testClick\\AddStep.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAUwEwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:55:10.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\Form1.cs",
-              "RelativeDocumentMoniker": "testClick\\Form1.cs",
-              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\Form1.cs [Design]",
-              "RelativeToolTip": "testClick\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T06:52:55.55Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageSteps.cs",
-              "DocumentMoniker": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\ManageSteps.cs",
-              "RelativeDocumentMoniker": "testClick\\ManageSteps.cs",
-              "ToolTip": "C:\\Users\\tdyda\\source\\repos\\testClick\\testClick\\ManageSteps.cs",
-              "RelativeToolTip": "testClick\\ManageSteps.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEMAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T12:05:51.938Z",
               "EditorCaption": ""
             }
           ]
